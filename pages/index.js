@@ -25,7 +25,7 @@ const Home = () => {
       </main>
 
       <footer>
-        Created with 🤍 by Kiran Methuku
+        Created with <img src="/heart.png" width="12" height="auto"/> by Kiran Methuku | © 2021
       </footer>
     </div>
   )

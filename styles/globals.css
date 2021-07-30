@@ -22,10 +22,11 @@ h1 {
   color: #271073;
   font-size: 12vh;
   text-decoration: underline #271073 6px;
+  margin-bottom: 25px;
 }
 
 h2 {
-  text-decoration: underline #271073 4px;
+  margin-bottom: 20px;
 }
 
 .nav {
@@ -33,8 +34,8 @@ h2 {
   padding: 20px 10px;
 }
 
-.intro, .contact {
-  height: 90vh;
+.intro {
+  height: 93vh;
   padding: 20px 10px;
   background-color: #fceed1;
   text-align: center;
@@ -42,11 +43,16 @@ h2 {
   background: linear-gradient(0deg, rgba(186,240,211,1) 0%, rgba(139,240,186,1) 25%); */
 }
 
+.contact {
+  padding: 20px 10px;
+  background-color: #fceed1;
+  text-align: center;
+}
+
 .skills, .about {
   background: rgb(31,19,70);
   background: linear-gradient(0deg, rgba(31,19,70,1) 0%, rgba(27,14,70,1) 25%);
   padding: 20px 10px;
-  height: 90vh;
 }
 
 .projects {
@@ -133,6 +139,7 @@ h2 {
 }
 
 .about {
+  padding: 40px 0px;
   border: solid 4px #ffdc6a;
   border-left: none;
   border-right: none;
@@ -160,8 +167,6 @@ h2 {
 }
 
 .about-text h2 {
-  margin: 10px auto;
-  margin-bottom: 20px;
   color: #ffdc6a;
   font-size: 6vh;
 }
@@ -188,7 +193,6 @@ h2 {
 
 .projects h2 {
   text-decoration: underline #ffdc6a 4px;
-  margin: 10px 10px;
   color: #271073;
   font-size: 6vh;
 }
@@ -252,11 +256,52 @@ h2 {
 
 .skills {
   text-align: center;
+  border: solid 4px #ffdc6a;
+  border-left: none;
+  border-right: none;
 }
 
 .skills h2 {
   text-decoration: underline #271073 4px;
-  margin: 10px 10px;
   color: #ffdc6a;
   font-size: 6vh;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h2 {
+  text-decoration: underline #ffdc6a 4px;
+  margin-bottom: 20px;
+  color: #271073;
+  font-size: 6vh;
+}
+
+.contact h3 {
+  width: 70vw;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icons img {
+  margin: 0px 10px;
+}
+
+footer {
+  background-color: #ffdc6a;
+  text-align: center;
+  padding: 5px 5px;
+  color: #271073;
+  font-size: 2.5vh;
 }
