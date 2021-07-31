@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
+  cursor: url("../public/cursor.png"), auto;
   /* font-size: 1.25vw; */
 }
 
@@ -393,7 +394,7 @@ footer img {
 
 .nav a:hover, .hamburger-dropdown a:hover, .project-title a:hover {
   text-decoration: underline #271073 2px;
-  cursor: pointer;
+  cursor: url("../public/pointer.png"), auto;
 }
 
 .fitome {
@@ -478,7 +479,7 @@ footer img {
   }
 
   .hamburger-nav a:hover, .hamburger-dropdown a:hover {
-    cursor: pointer;
+    cursor: url("../public/pointer.png"), auto;
   }
 
   .hamburger-nav .cv-download {
@@ -539,4 +540,22 @@ footer img {
   .contact h3 {
     font-size: 1rem;
   }
+}
+
+/* not BEM */
+::-webkit-scrollbar {
+  scrollbar-width: 5px;
+  width: 5px;
+}
+
+/* not BEM */
+::-webkit-scrollbar-track {
+  background: transparent;
+  width: 5px;
+}
+
+/* not BEM */
+::-webkit-scrollbar-thumb {
+  background: #271073;
+  width: 5px;
 }
