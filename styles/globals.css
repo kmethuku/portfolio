@@ -112,20 +112,20 @@ h2 {
 .down-arrow {
   position: absolute;
   bottom: 10vh;
-  animation: updown 2s ease infinite;
+  animation: updown 1s ease infinite;
 }
 
 @keyframes updown {
   0% {
-    transform: translateY(-8%);
+    transform: translateY(-10%);
   }
 
   50% {
-    transform: translateY(8%);
+    transform: translateY(10%);
   }
 
   100% {
-    transform: translateY(-8%);
+    transform: translateY(-10%);
   }
 }
 
