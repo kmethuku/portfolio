@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: sans-serif;
   cursor: url("../public/cursor-new.png"), auto;
+  scroll-behavior: smooth;
   /* font-size: 1.25vw; */
 }
 
