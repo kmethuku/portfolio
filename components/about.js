@@ -20,8 +20,8 @@ const About = () => {
         and client relations. I believe the best engineers are multidisciplinary and can think beyond the code.
         </div>
         <div>
-        When I'm not programming, I enjoy reading and baking (I make the world's best sugar-free chocolate
-        chip cookies, guaranteed 🍪). Some of my favorite books include Ender's Game and The Graveyard Book.
+        When I'm not programming, I enjoy baking (I make the world's best sugar-free chocolate
+        chip cookies, guaranteed 🍪) and reading. Some of my favorite books include Ender's Game and The Graveyard Book.
         </div>
       </div>
     </div>

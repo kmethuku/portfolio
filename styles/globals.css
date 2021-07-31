@@ -366,6 +366,10 @@ h2 {
 }
 
 footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   background-color: #ffdc6a;
   text-align: center;
   padding: 8px 8px;
@@ -377,6 +381,7 @@ footer img {
   width: .8vw;
   min-width: 12px;
   height: auto;
+  margin: 0vh 7px;
 }
 
 /* nav */
@@ -529,5 +534,9 @@ footer img {
 
   .project-title h3 {
     font-size: 1.5rem;
+  }
+
+  .contact h3 {
+    font-size: 1rem;
   }
 }
