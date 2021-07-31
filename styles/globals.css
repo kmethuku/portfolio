@@ -454,7 +454,7 @@ footer img {
 }
 
 /* icons */
-.intro-icons img:hover, .contact-icons img:hover, .initials img:hover {
+.intro-icons img:hover, .contact-icons img:hover {
   transform: translatey(-5px);
   transition: transform .3s;
 }
