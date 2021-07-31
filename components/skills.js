@@ -2,7 +2,7 @@ import {} from 'react'
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills" id="technologies">
       <h2>Technologies</h2>
       <div className="tech-icon-container">
         <div className="tech-icon-circle"><img src="js.png" width="50" height="auto"/></div>
