@@ -544,18 +544,18 @@ footer img {
 
 /* not BEM */
 ::-webkit-scrollbar {
-  scrollbar-width: 5px;
-  width: 5px;
+  scrollbar-width: .5vw;
+  width: .5vw;
 }
 
 /* not BEM */
 ::-webkit-scrollbar-track {
   background: transparent;
-  width: 5px;
+  width: .5vw;
 }
 
 /* not BEM */
 ::-webkit-scrollbar-thumb {
   background: #271073;
-  width: 5px;
+  width: .5vw;
 }
