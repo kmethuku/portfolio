@@ -25,7 +25,7 @@ const Home = () => {
       </main>
 
       <footer>
-        © 2021 | Coded with <img src="/heart.png" width="12" height="auto"/> by Kiran Methuku
+        © 2021 | Coded with <img src="/coffee.png"/> by Kiran Methuku
       </footer>
     </div>
   )

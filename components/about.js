@@ -7,11 +7,11 @@ const About = () => {
       <div className="about-text">
         <h2>Hey! I'm Kiran.</h2>
         <div>
-        I'm a web developer who enjoys the challenge of finding elegant solutions to complex problems.
+        I'm a web developer who loves building engaging and intuitive user-driven products.
         </div>
         <div>
         I approach development with a product manager mindset, leveraging user insights to generate
-        opportunities and requirements for new features. Taking a user-first approach, I build
+        opportunities and define requirements for new features. Taking a user-first approach, I build
         applications that are easy to use and intuitive to navigate. Most importantly, I believe
         in delivering value continuously by shipping fast, quality code 🚀.
         </div>

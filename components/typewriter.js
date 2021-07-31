@@ -5,7 +5,7 @@ const Typewriter = () => {
     <div>
       <TypeIt className="typewriter"
         options={{
-          strings: ['Web Developer', 'Problem Solver', 'Product-Minded Engineer'],
+          strings: ['Web Developer', 'Problem Solver', 'User-Driven Engineer'],
           speed: 100,
           waitUntilVisible: true,
           breakLines: false,

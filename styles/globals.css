@@ -23,7 +23,6 @@ a {
 h1 {
   color: #271073;
   font-size: 5rem;
-  text-decoration: underline #271073 6px;
   margin-bottom: .5vh;
 }
 
@@ -81,6 +80,8 @@ h2 {
 }
 
 .intro-icons {
+  position: absolute;
+  left: 4vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -172,12 +173,13 @@ h2 {
 .about-text {
   width: 40vw;
   min-width: 300px;
-  padding: 0vh 2vw;
+  padding-left: 2vw;
   border: solid 4px #ffdc6a;
   border-top: none;
   border-right: none;
   border-bottom: none;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  line-height: 1.5rem;
 }
 
 .about-text div {
@@ -227,14 +229,15 @@ h2 {
   text-decoration: underline #ffdc6a 4px;
   color: #271073;
   margin-bottom: 3vh;
+  text-align: center;
 }
 
 .project-left-content {
   background: rgb(252,238,209);
   background: linear-gradient(0deg, rgba(252,238,209,1) 0%, rgba(251,230,192,1) 25%);
   /* border-radius: 20px; */
-  padding: 4vh 4vw;
-  padding-top: 0vh;
+  padding: 3.5vw 3.5vw;
+  /* padding-top: 0vh; */
   min-width: 300px;
   max-width: 50vw;
   margin-bottom: 3vh;
@@ -247,7 +250,7 @@ h2 {
   align-items: center;
   justify-content: flex-start;
   /* font-size: 2.2vw; */
-  margin-top: 3vh;
+  /* margin-top: 3vh; */
 }
 
 .project-title h3 {
@@ -275,6 +278,7 @@ h2 {
   /* width: 50vw; */
   font-size: 1rem;
   margin: 2vh 0vw;
+  line-height: 1.5rem;
 }
 
 .project-tech {
@@ -290,6 +294,7 @@ h2 {
   padding: 10px 10px;
   border-radius: 10px;
   font-weight: 600;
+  line-height: 1.5rem;
   /* line-height: 25px; */
 }
 
@@ -362,6 +367,7 @@ h2 {
   width: 90vw;
   font-size: 1.15rem;
   margin: 5vh 0vw;
+  line-height: 1.5rem;
   /* line-height: 25px; */
 }
 
@@ -373,13 +379,13 @@ h2 {
 }
 
 .contact-icons img {
-  margin: 0vh 3vw;
+  margin: 0vh 1vw;
 }
 
 footer {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   background-color: #ffdc6a;
   text-align: center;
@@ -390,7 +396,7 @@ footer {
 
 footer img {
   width: .8vw;
-  min-width: 12px;
+  min-width: 18px;
   height: auto;
   margin: 0vh 7px;
 }
