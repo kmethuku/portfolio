@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  cursor: url("../public/cursor.png"), auto;
+  cursor: url("../public/cursor-new.png"), auto;
   /* font-size: 1.25vw; */
 }
 
@@ -155,6 +155,7 @@ h2 {
 
 .tech-icon-circle:hover {
   transform: scale(1.05, 1.05);
+  transition: transform .3s;
 }
 
 .about {
@@ -219,6 +220,7 @@ h2 {
 
 .kiran-container:hover {
   transform: scale(1.05, 1.05);
+  transition: transform .3s;
 }
 
 .projects h2 {
@@ -263,6 +265,7 @@ h2 {
 
 .project-title img:hover {
   transform: translatey(-5px);
+  transition: transform .3s;
 }
 
 .project-description {
@@ -308,6 +311,13 @@ h2 {
   width: 18vw;
   min-width: 200px;
   height: auto;
+  border-bottom: solid 4vh #ffdc6a;
+  border-radius: 10px;
+}
+
+.gif:hover {
+  transform: scale(1.05, 1.05);
+  transition: transform .3s;
 }
 
 .project-content {
@@ -394,7 +404,7 @@ footer img {
 
 .nav a:hover, .hamburger-dropdown a:hover, .project-title a:hover {
   text-decoration: underline #271073 2px;
-  cursor: url("../public/pointer.png"), auto;
+  cursor: url("../public/pointer-new.png"), auto;
 }
 
 .fitome {
@@ -404,6 +414,7 @@ footer img {
 /* icons */
 .intro-icons img:hover, .contact-icons img:hover, .initials img:hover {
   transform: translatey(-5px);
+  transition: transform .3s;
 }
 
 /* @media only screen and (max-width: 415px) {
@@ -479,7 +490,7 @@ footer img {
   }
 
   .hamburger-nav a:hover, .hamburger-dropdown a:hover {
-    cursor: url("../public/pointer.png"), auto;
+    cursor: url("../public/pointer-new.png"), auto;
   }
 
   .hamburger-nav .cv-download {
