@@ -14,6 +14,7 @@ const Intro = () => {
         <h1>Kiran Methuku</h1>
         <Typewriter/>
       </div>
+      <a className="down-arrow" href="/#about"><img src="/down-arrow.png" width="25" height="auto"/></a>
     </div>
   )
 }

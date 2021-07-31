@@ -93,6 +93,26 @@ h2 {
   margin: 4vh 0vw;
 }
 
+.down-arrow {
+  position: absolute;
+  bottom: 10vh;
+  animation: updown 2s ease infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-8%);
+  }
+
+  50% {
+    transform: translateY(8%);
+  }
+
+  100% {
+    transform: translateY(-8%);
+  }
+}
+
 .nav {
   display: flex;
   flex-direction: row;
