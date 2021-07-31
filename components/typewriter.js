@@ -10,7 +10,8 @@ const Typewriter = () => {
           waitUntilVisible: true,
           breakLines: false,
           nextStringDelay: 750,
-          loop: true
+          loop: true,
+          loopDelay: 750
         }}
       />
     </div>
