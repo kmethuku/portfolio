@@ -13,7 +13,7 @@ const Projects = () => {
           <p className="project-description">A flashcard sharing application made for lifelong learners. Users can create decks, search for available decks, save and study decks using the flashcards interface, and more.</p>
           <div className="project-tech">
             <img src="/tools.png" width="48" height="auto"/>
-            <p>TypeScript, React, Next.js, Firebase, Express, MongoDB, Jest, Supertest</p>
+            <p>TypeScript, React, Next.js, Firebase, Express, MongoDB, Jest, SuperTest</p>
           </div>
             <img className="multi" src="/cardshare.png" width="500" height="auto"/>
         </div>
