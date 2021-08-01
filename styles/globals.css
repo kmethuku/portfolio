@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 3vh;
+  margin: 3vh 0vw;
   font-size: 2.45rem;
 }
 
@@ -190,11 +190,6 @@ h2 {
   margin: 1.5vh 1.5vh;
 }
 
-.tech-icon-circle:hover {
-  transform: scale(1.05, 1.05);
-  transition: transform .3s;
-}
-
 .about {
   border: solid 4px #ffdc6a;
   border-left: none;
@@ -254,11 +249,14 @@ h2 {
   min-width: 250px;
   min-height: 250px;
   border-radius: 50%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
-.kiran-container:hover {
-  transform: scale(1.05, 1.05);
-  transition: transform .3s;
+.kiran-container img:hover {
+  -webkit-filter: none; /* Safari 6.0 - 9.0 */
+  filter: none;
+  transition: filter .3s;
 }
 
 .projects h2 {
@@ -356,18 +354,13 @@ h2 {
   border-radius: 10px;
 }
 
-.gif:hover {
-  transform: scale(1.05, 1.05);
-  transition: transform .3s;
-}
-
 .project-content {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  padding: 1vh 0vw;
+  /* padding: 1vh 0vw; */
 }
 
 /* .fitome-multi {
@@ -504,10 +497,6 @@ footer img {
 
   .nav a {
     display: none;
-  }
-
-  .about-text {
-    margin-top: 3vh;
   }
 
   .hamburger-nav {

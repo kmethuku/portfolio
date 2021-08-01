@@ -12,7 +12,7 @@ const Projects = () => {
           </div>
           <p className="project-description">A flashcard sharing application made for lifelong learners. Users can create decks, search for available decks, save and study decks using the flashcards interface, and more.</p>
           <div className="project-tech">
-            <img src="/tools.png" width="48" height="auto"/>
+            <img src="/wrench.png" width="32" height="auto"/>
             <p>TypeScript, React, Next.js, Firebase, Express, MongoDB, Jest, SuperTest</p>
           </div>
             <img className="multi" src="/cardshare.png" width="500" height="auto"/>
@@ -27,7 +27,7 @@ const Projects = () => {
           </div>
           <p className="project-description">A client management tool for personal trainers. Trainers can assign workout plans and hold virtual training sessions using the video chat interface with integrated exercise timer.</p>
           <div className="project-tech">
-            <img src="/tools.png" width="48" height="auto"/>
+            <img src="/wrench.png" width="32" height="auto"/>
             <p>React, Redux, SimplePeer, Socket.io, Google WorkBox, Next.js, Firebase, Express, PostgreSQL</p>
           </div>
             <img className="multi" src="/fitome-multi.png" width="500" height="auto"/>
