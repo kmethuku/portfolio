@@ -299,8 +299,8 @@ h2 {
 }
 
 .project-title img {
-  width: 1.25vw;
-  min-width: 25px;
+  width: 25px;
+  /* min-width: 25px; */
   height: auto;
   animation: updown 1s ease infinite;
 }
@@ -436,8 +436,8 @@ footer {
 }
 
 footer img {
-  width: .8vw;
-  min-width: 18px;
+  width: 20px;
+  /* min-width: 18px; */
   height: auto;
   margin: 0vh 7px;
 }
