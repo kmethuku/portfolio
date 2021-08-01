@@ -1,4 +1,4 @@
-import {} from 'react'
+import {} from 'react';
 import Typewriter from '../components/typewriter';
 
 const Intro = () => {

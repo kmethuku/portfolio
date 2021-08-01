@@ -1,4 +1,4 @@
-import {} from 'react'
+import {} from 'react';
 
 const Skills = () => {
   return (

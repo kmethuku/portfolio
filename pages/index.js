@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import NavigationBar from '../components/navigationBar';
 import Intro from '../components/intro';
 import Projects from '../components/projects';
@@ -12,7 +12,7 @@ const Home = () => {
       <Head>
         <title>Kiran Methuku's Portfolio</title>
         <meta name="description" content="Kiran Methuku's Portfolio"/>
-        <link rel="icon" href="/k.png" />
+        <link rel="icon" href="/k.png"/>
       </Head>
 
       <main>
