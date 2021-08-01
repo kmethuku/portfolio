@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  cursor: url("../public/cursor-new.png"), auto;
+  /* cursor: url("../public/cursor-new.png"), auto; */
   scroll-behavior: smooth;
   /* font-size: 1.25vw; */
 }
@@ -451,7 +451,8 @@ footer img {
 
 .nav a:hover, .hamburger-dropdown a:hover, .project-title a:hover {
   text-decoration: underline #271073 2px;
-  cursor: url("../public/pointer-new.png"), auto;
+  /* cursor: url("../public/pointer-new.png"), auto; */
+  cursor: pointer;
 }
 
 .fitome {
@@ -533,7 +534,8 @@ footer img {
   }
 
   .hamburger-nav a:hover, .hamburger-dropdown a:hover {
-    cursor: url("../public/pointer-new.png"), auto;
+    /* cursor: url("../public/pointer-new.png"), auto; */
+    cursor: pointer;
   }
 
   .hamburger-nav .cv-download {
