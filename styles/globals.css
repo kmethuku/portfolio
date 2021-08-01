@@ -40,7 +40,7 @@ h2 {
 
 .intro {
   min-height: 92vh;
-  padding: 8vh 6vw;
+  padding: 6vh 6vw;
   background: rgb(252,238,209);
   /* background: linear-gradient(0deg, rgba(252,238,209,1) 0%, rgba(251,230,192,1) 25%); */
   text-align: center;
@@ -65,7 +65,7 @@ h2 {
 
 .contact {
   /* min-height: 40vh; */
-  padding: 8vh 6vw;
+  padding: 6vh 6vw;
   background: rgb(252,238,209);
   background: linear-gradient(0deg, rgba(252,238,209,1) 0%, rgba(251,230,192,1) 25%);
   text-align: center;
@@ -75,12 +75,16 @@ h2 {
   /* min-height: 90vh; */
   background: rgb(31,19,70);
   background: linear-gradient(0deg, rgba(31,19,70,1) 0%, rgba(27,14,70,1) 25%);
+  padding: 6vh 6vw;
+}
+
+.about {
   padding: 8vh 6vw;
 }
 
 .projects {
   /* min-height: 90vh; */
-  padding: 8vh 6vw;
+  padding: 6vh 6vw;
 }
 
 .intro {
