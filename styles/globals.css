@@ -583,7 +583,7 @@ footer img {
 }
 
 @media only screen and (max-width: 780px) {
-  h1 {
+  /* h1 {
     font-size: 3rem;
   }
 
@@ -605,7 +605,7 @@ footer img {
 
   .project-left-content {
     padding: 1.5rem 1.5rem;
-  }
+  } */
 
   .contact-icons img {
     margin: 0vh 3vw;
