@@ -305,10 +305,10 @@ h2 {
   animation: updown 1s ease infinite;
 }
 
-.project-title img:hover {
+/* .project-title img:hover {
   transform: translatey(-5px);
   transition: transform .3s;
-}
+} */
 
 .project-description {
   margin: 10px 0px;
@@ -461,7 +461,7 @@ footer img {
 
 /* icons */
 .intro-icons img:hover, .contact-icons img:hover, .initials:hover {
-  transform: translatey(-5px);
+  transform: scale(1.2, 1.2);
   transition: transform .3s;
 }
 
