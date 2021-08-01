@@ -27,9 +27,9 @@ const NavigationBar = () => {
             <a href="/#technologies" onClick={() => setClicked(!clicked)}>Technologies</a>
             <a href="/#contact" onClick={() => setClicked(!clicked)}>Contact</a>
             <div className="contact-icons">
-              <a href="https://www.github.com/kmethuku"><img src="/github-purple.png" width="auto" height="30"/></a>
-              <a href="https://www.linkedin.com/in/kiranmethuku0831"><img src="/linkedin-purple.png" width="auto" height="30"/></a>
-              <a href="mailto:kmethuku@protonmail.com"><img src="/mail-purple.png" width="auto" height="30"/></a>
+              <a href="https://www.github.com/kmethuku"><img src="/github-purple.png"/></a>
+              <a href="https://www.linkedin.com/in/kiranmethuku0831"><img src="/linkedin-purple.png"/></a>
+              <a href="mailto:kmethuku@protonmail.com"><img src="/mail-purple.png"/></a>
             </div>
           </div>
         }
