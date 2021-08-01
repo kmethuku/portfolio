@@ -615,18 +615,23 @@ footer img {
 
 /* not BEM */
 ::-webkit-scrollbar {
-  scrollbar-width: .5vw;
-  width: .5vw;
+  scrollbar-width: .75vw;
+  width: .75vw;
 }
 
 /* not BEM */
 ::-webkit-scrollbar-track {
-  background: transparent;
-  width: .5vw;
+  background: #ffffff;
+  width: .75vw;
 }
 
 /* not BEM */
 ::-webkit-scrollbar-thumb {
   background: #271073;
-  width: .5vw;
+  width: .75vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(39,16,115,.9);
+  width: .75vw;
 }
