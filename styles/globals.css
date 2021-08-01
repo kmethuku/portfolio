@@ -409,7 +409,9 @@ h2 {
 }
 
 .contact-icons img {
-  margin: 0vh 1vw;
+  margin: 0vh 1.5vw;
+  width: 40px;
+  height: auto;
 }
 
 footer {
@@ -563,6 +565,12 @@ footer img {
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .contact-icons img {
+    margin: 0vh 2vw;
+  }
+}
+
 @media only screen and (max-width: 780px) {
   h1 {
     font-size: 3rem;
@@ -587,7 +595,12 @@ footer img {
   .project-left-content {
     padding: 1.5rem 1.5rem;
   }
+
+  .contact-icons img {
+    margin: 0vh 3vw;
+  }
 }
+
 
 /* not BEM */
 ::-webkit-scrollbar {
