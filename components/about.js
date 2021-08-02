@@ -16,7 +16,7 @@ const About = () => {
         in delivering value continuously by shipping fast, quality code 🚀.
         </div>
         <div>
-        On top of my technical skills, I have experience in customer/market research, project management,
+        On top of my technical skills, I have experience in market research, project management,
         and client relations. I believe the best engineers are multidisciplinary and can think beyond the code.
         </div>
         <div>
