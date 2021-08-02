@@ -1,1 +1,1 @@
-### Check out my portfolio [here](www.kiranmethuku.com) 👩‍💻
+### Check out my portfolio [here](https://www.kiranmethuku.com) 👩‍💻
