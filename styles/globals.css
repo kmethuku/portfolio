@@ -109,6 +109,11 @@ h2 {
   animation: updown 1s ease infinite;
 }
 
+.down-arrow img {
+  width: 1.5rem;
+  height: auto;
+}
+
 @keyframes updown {
   0% {
     transform: translateY(-10%);
@@ -277,7 +282,7 @@ h2 {
 }
 
 .project-title img {
-  width: 25px;
+  width: 1.35rem;
   height: auto;
   animation: updown 1s ease infinite;
 }
@@ -310,6 +315,8 @@ h2 {
 }
 
 .project-tech img {
+  width: 1.75rem;
+  height: auto;
   margin-right: 1vw;
 }
 
@@ -374,12 +381,12 @@ h2 {
 
 .contact-icons img {
   margin: 0vh 1.5vw;
-  width: 40px;
+  width: 2.5rem;
   height: auto;
 }
 
 .intro-icons img {
-  width: 40px;
+  width: 2.5rem;
   height: auto;
 }
 
@@ -396,7 +403,7 @@ footer {
 }
 
 footer img {
-  width: 20px;
+  width: 1.2rem;
   height: auto;
   margin: 0vh 7px;
 }
@@ -411,8 +418,18 @@ footer img {
   cursor: pointer;
 }
 
+.hamburger img {
+  width: 1.35rem;
+  height: auto;
+}
+
 .fitome {
   margin-top: 7vh;
+}
+
+.initials img {
+  width: 1.2rem;
+  height: auto;
 }
 
 .intro-icons img:hover, .contact-icons img:hover, .initials:hover {
