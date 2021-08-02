@@ -7,7 +7,7 @@ const About = () => {
       <div className="about-text">
         <h2>Hey! I'm Kiran.</h2>
         <div>
-        I'm a web developer who loves building engaging and intuitive user-driven products.
+        I'm a web developer who loves building engaging and intuitive products informed by intelligent user research.
         </div>
         <div>
         I approach development with a product manager mindset, leveraging user insights to generate
