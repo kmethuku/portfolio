@@ -217,7 +217,7 @@ h2 {
   border-top: none;
   border-right: none;
   border-bottom: none;
-  margin: 2vh 0vw;
+  margin: 2vh 2vw;
 }
 
 .about-text div {
@@ -245,8 +245,7 @@ h2 {
   height: 31vw;
   min-width: 450px;
   min-height: 450px;
-  margin: 2vh 0vw;
-  margin-right: 2vw;
+  margin: 2vh 2vw;
 }
 
 .kiran-container img {
