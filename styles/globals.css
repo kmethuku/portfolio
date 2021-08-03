@@ -277,16 +277,16 @@ h2 {
   min-width: 270px;
   width: 50vw;
   box-shadow: 2vw 2vw #271073;
+  margin-right: 2vw;
+  margin-left: 2vw;
 }
 
 .first-project {
   margin-bottom: 5vh;
-  margin-right: 4vw;
 }
 
 .fitome-gif {
   margin-top: 5vh;
-  margin-right: 4vw;
 }
 
 .project-title {
@@ -360,6 +360,8 @@ h2 {
   height: auto;
   border-bottom: solid 4vh #ffdc6a;
   border-radius: 10px;
+  margin-right: 2vw;
+  margin-left: 2vw;
 }
 
 .project-content {
