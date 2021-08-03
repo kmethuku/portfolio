@@ -275,11 +275,11 @@ h2 {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  font-family: monospace, monospace;
 }
 
 .project-title h3 {
-  font-size: 1.75rem;
+  font-family: monospace, monospace;
+  font-size: 1.7rem;
   margin-right: .7vw;
   color: #271073;
 }
