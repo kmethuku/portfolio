@@ -15,7 +15,7 @@ const Projects = () => {
             <img src="/wrench.png" width="32" height="auto"/>
             <p>TypeScript, React, Next.js, Firebase, Express, MongoDB, Jest, SuperTest</p>
           </div>
-            <div class="multi-container"><img className="multi" src="/cardshare.png" width="500" height="auto"/></div>
+            <div className="multi-container"><img className="multi" src="/cardshare.png" width="500" height="auto"/></div>
         </div>
         <img className="gif"  src="/cardshare-gif.gif" width="200" height="auto"/>
       </div>
@@ -31,7 +31,7 @@ const Projects = () => {
             <img src="/wrench.png" width="32" height="auto"/>
             <p>React, Redux, SimplePeer, Socket.io, Google WorkBox, Next.js, Firebase, Express, PostgreSQL</p>
           </div>
-            <div class="multi-container"><img className="multi" src="/fitome-multi.png" width="500" height="auto"/></div>
+            <div className="multi-container"><img className="multi" src="/fitome-multi.png" width="500" height="auto"/></div>
         </div>
       </div>
     </div>
