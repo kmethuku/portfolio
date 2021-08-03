@@ -275,16 +275,17 @@ h2 {
   padding: 4vw 4vw;
   min-width: 270px;
   width: 50vw;
-  margin: 0vh 4vw;
   box-shadow: 2vw 2vw #271073;
 }
 
 .first-project {
   margin-bottom: 5vh;
+  margin-right: 4vw;
 }
 
 .fitome-gif {
   margin-top: 5vh;
+  margin-right: 4vw;
 }
 
 .project-title {
