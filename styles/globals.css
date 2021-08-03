@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-  margin: 3vh 0vw;
+  margin-bottom: 6vh;
   font-size: 2.45rem;
   font-family: monospace, monospace;
 }
@@ -38,7 +38,7 @@ h2 {
 }
 
 .intro {
-  min-height: 92vh;
+  min-height: 100vh;
   padding: 6vh 6vw;
   background: rgb(252,238,209);
   text-align: center;
@@ -60,7 +60,7 @@ h2 {
 }
 
 .contact {
-  padding: 6vh 6vw;
+  padding: 10vh 6vw;
   background: rgb(252,238,209);
   background: linear-gradient(0deg, rgba(252,238,209,1) 0%, rgba(251,230,192,1) 25%);
   text-align: center;
@@ -69,15 +69,24 @@ h2 {
 .skills, .about {
   background: rgb(31,19,70);
   background: linear-gradient(0deg, rgba(31,19,70,1) 0%, rgba(27,14,70,1) 25%);
-  padding: 6vh 6vw;
+  padding: 10vh 6vw;
+  min-height: 100vh;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .about {
-  padding: 8vh 6vw;
+  padding: 10vh 6vw;
 }
 
 .projects {
-  padding: 6vh 6vw;
+  padding: 10vh 6vw;
+  min-height: 100vh;
 }
 
 .intro {
@@ -197,17 +206,18 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .about-text {
   width: 40vw;
   min-width: 480px;
-  padding-left: 2vw;
+  padding-left: 3vw;
   border: solid 4px #ffdc6a;
   border-top: none;
   border-right: none;
   border-bottom: none;
+  margin: 2vh 0vw;
 }
 
 .about-text div {
@@ -220,6 +230,8 @@ h2 {
 
 .about-text h2 {
   color: #ffdc6a;
+  margin-top: 1.5vh;
+  margin-bottom: 3vh;
 }
 
 .kiran-container {
@@ -233,7 +245,7 @@ h2 {
   height: 31vw;
   min-width: 450px;
   min-height: 450px;
-  margin: 2vh 2vh;
+  margin: 2vh 2vw;
 }
 
 .kiran-container img {
@@ -254,20 +266,25 @@ h2 {
 
 .projects h2 {
   color: #271073;
-  margin-bottom: 3vh;
   text-align: center;
 }
 
 .project-left-content {
   background: rgb(252,238,209);
   background: linear-gradient(0deg, rgba(252,238,209,1) 0%, rgba(251,230,192,1) 25%);
-  padding: 3.5vw 3.5vw;
+  padding: 4vw 4vw;
   min-width: 270px;
   width: 50vw;
-  margin-bottom: 3vh;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0vh 4vw;
   box-shadow: 2vw 2vw #271073;
+}
+
+.first-project {
+  margin-bottom: 5vh;
+}
+
+.fitome-gif {
+  margin-top: 5vh;
 }
 
 .project-title {
@@ -291,10 +308,9 @@ h2 {
 }
 
 .project-description {
-  margin: 10px 0px;
   text-align: left;
   font-size: 1rem;
-  margin: 2vh 0vw;
+  margin-top: 3vh;
   line-height: 1.5rem;
 }
 
@@ -303,7 +319,7 @@ h2 {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  margin: 2vh 0vw;
+  margin: 3vh 0vw;
   font-style: italic;
   font-size: .9rem;
   background-color: #ffdc6a;
@@ -329,6 +345,13 @@ h2 {
   height: auto;
 }
 
+.multi-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .gif {
   width: 18vw;
   min-width: 200px;
@@ -342,7 +365,7 @@ h2 {
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .skills {
@@ -371,7 +394,7 @@ h2 {
 .contact h3 {
   width: 90vw;
   font-size: 1.15rem;
-  margin: 5vh 0vw;
+  margin: 6vh 0vw;
   line-height: 1.5rem;
 }
 
@@ -427,7 +450,8 @@ footer img {
 }
 
 .fitome {
-  margin-top: 7vh;
+  margin-top: 10vh;
+  flex-wrap: wrap-reverse;
 }
 
 .initials img {
