@@ -599,21 +599,21 @@ footer img {
 }
 
 ::-webkit-scrollbar {
-  scrollbar-width: .75vw;
-  width: .75vw;
+  scrollbar-width: 1vw;
+  width: 1vw;
 }
 
 ::-webkit-scrollbar-track {
   background: #ffffff;
-  width: .75vw;
+  width: 1vw;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #271073;
-  width: .75vw;
+  background: #fceed1;
+  width: 1vw;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(39,16,115,.9);
-  width: .75vw;
+  background: #ffdc6a;
+  width: 1vw;
 }
