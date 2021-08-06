@@ -43,7 +43,7 @@ h2 {
   padding: 6vh 6vw;
   background: #fefceb;
   text-align: center;
-  background: linear-gradient(-45deg, #fff8bf, #fefceb, #fff8bf, #fefceb);
+  background: linear-gradient(-45deg, #ffd630, #fefceb, #fefceb, #ffd630);
   background-size: 400% 400%;
   animation: gradient 5s ease infinite;
 }
