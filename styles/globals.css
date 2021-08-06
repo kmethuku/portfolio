@@ -151,7 +151,7 @@ h2 {
   right: 0vw;
   left: 0vw;
   width: 100vw;
-  font-size: .8rem;
+  font-size: .9rem;
 }
 
 .nav a {
@@ -319,7 +319,7 @@ h2 {
   align-items: center;
   justify-content: flex-start;
   margin: 3vh 0vw;
-  font-size: .8rem;
+  font-size: 1rem;
   background-color: #ffd630;
   padding: 10px 10px;
   border-radius: 10px;
@@ -453,7 +453,7 @@ footer img {
 }
 
 .initials img {
-  width: 1rem;
+  width: 1.1rem;
   height: auto;
 }
 
