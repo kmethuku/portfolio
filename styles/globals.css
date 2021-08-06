@@ -591,23 +591,3 @@ footer img {
     margin: 0vh 3vw;
   }
 }
-
-::-webkit-scrollbar {
-  scrollbar-width: 1vw;
-  width: 1vw;
-}
-
-::-webkit-scrollbar-track {
-  background: #ffffff;
-  width: 1vw;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #fefceb;
-  width: 1vw;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #ffd630;
-  width: 1vw;
-}
