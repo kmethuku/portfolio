@@ -127,6 +127,12 @@ h2 {
   height: auto;
 }
 
+.project-description img {
+  width: .75rem;
+  height: auto;
+  margin-right: .5rem;
+}
+
 @keyframes updown {
   0% {
     transform: translateY(-10%);
@@ -352,7 +358,7 @@ h2 {
 }
 
 .gif {
-  width: 18vw;
+  width: 22vw;
   min-width: 200px;
   height: auto;
   margin-right: 2vw;
