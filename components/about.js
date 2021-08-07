@@ -11,7 +11,7 @@ const About = () => {
         </div>
         <div>
         I design and build applications that are engaging and intuitive to navigate.
-        Most importantly, I believe in delivering value continuously by shipping fast,
+        Above all, I believe in delivering value continuously by shipping fast,
         quality code 🚀.
         </div>
         <div>
