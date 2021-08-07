@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: sans-serif;
   scroll-behavior: smooth;
-  scroll-padding-top: 2.75vh;
+  scroll-padding-top: 2.85vh;
   font-size: 1rem;
 }
 
@@ -320,15 +320,16 @@ h2 {
   justify-content: flex-start;
   margin: 3vh 0vw;
   font-size: .9rem;
-  background-color: #ffd630;
   padding: 10px 10px;
-  border-radius: 10px;
+  background: rgb(31,19,70);
+  background: linear-gradient(0deg, rgba(31,19,70,1) 0%, rgba(27,14,70,1) 25%);
+  border-radius: 20px;
   font-weight: 600;
   line-height: 1.35rem;
 }
 
 .project-tech p {
-  color: #271073;
+  color: #fefceb;
 }
 
 .project-tech img {
