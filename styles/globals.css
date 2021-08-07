@@ -33,7 +33,7 @@ h2 {
 }
 
 .nav {
-  background-color: #ffd630;
+  background-color: #ffdc6a;
   padding: 1.25vh 2vw;
   z-index: 1;
 }
@@ -43,7 +43,7 @@ h2 {
   padding: 6vh 6vw;
   background: #fefceb;
   text-align: center;
-  background: linear-gradient(-45deg, #ffd630, #fefceb, #fefceb, #ffd630);
+  background: linear-gradient(-45deg, #ffdc6a, #fefceb, #fefceb, #ffdc6a);
   background-size: 400% 400%;
   animation: gradient 5s ease infinite;
 }
@@ -87,7 +87,7 @@ h2 {
 .projects {
   padding: 10vh 6vw;
   min-height: 100vh;
-  border: solid 4px #ffd630;
+  border: solid 4px #ffdc6a;
   border-right: none;
   border-left: none;
 }
@@ -212,7 +212,7 @@ h2 {
   width: 40vw;
   min-width: 480px;
   padding-left: 3vw;
-  border: solid 4px #ffd630;
+  border: solid 4px #ffdc6a;
   border-top: none;
   border-right: none;
   border-bottom: none;
@@ -228,7 +228,7 @@ h2 {
 }
 
 .about-text h2 {
-  color: #ffd630;
+  color: #ffdc6a;
   margin-top: 1.5vh;
   margin-bottom: 3vh;
 }
@@ -238,7 +238,7 @@ h2 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border: solid 8px #ffd630;
+  border: solid 8px #ffdc6a;
   border-radius: 50%;
   width: 31vw;
   height: 31vw;
@@ -273,7 +273,7 @@ h2 {
   padding: 4vw 4vw;
   min-width: 270px;
   width: 50vw;
-  box-shadow: 2vw 2vw #ffd630;
+  box-shadow: 2vw 2vw #ffdc6a;
   margin-right: 2vw;
   margin-left: 2vw;
 }
@@ -372,7 +372,7 @@ h2 {
 }
 
 .skills h2 {
-  color: #ffd630;
+  color: #ffdc6a;
 }
 
 .contact {
@@ -380,7 +380,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: solid 4px #ffd630;
+  border: solid 4px #ffdc6a;
   border-right: none;
   border-left: none;
 }
@@ -420,7 +420,7 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #ffd630;
+  background-color: #ffdc6a;
   text-align: center;
   padding: 8px 8px;
   color: #271073;
@@ -518,7 +518,7 @@ footer img {
     width: 100vw;
     height: 6vh;
     font-size: 1rem;
-    background-color: #ffd630;
+    background-color: #ffdc6a;
     padding: 0vh 2vw;
     z-index: 1;
   }
@@ -540,7 +540,7 @@ footer img {
   }
 
   .hamburger-dropdown {
-    background-color: #ffd630;
+    background-color: #ffdc6a;
     display: flex;
     flex-direction: column;
     align-items: center;
