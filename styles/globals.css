@@ -358,9 +358,8 @@ h2 {
 }
 
 .gif {
-  width: 22vw;
-  min-width: 200px;
-  height: auto;
+  width: auto;
+  height: 85vh;
   margin-right: 2vw;
   margin-left: 2vw;
 }

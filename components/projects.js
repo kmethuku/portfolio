@@ -20,7 +20,7 @@ const Projects = () => {
           </p>
           <div className="project-tech">
             <img src="/wrench.png" width="32" height="auto"/>
-            <p>React, Redux, SimplePeer, Socket.io, Google WorkBox, Next.js, Firebase, Express, PostgreSQL</p>
+            <p>React, Redux, SimplePeer, Socket.io, Google Workbox, Next.js, Firebase, Express, PostgreSQL</p>
           </div>
             <div className="multi-container"><img className="multi" src="/fitome-multi.png" width="500" height="auto"/></div>
         </div>
