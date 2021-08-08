@@ -14,7 +14,7 @@ const Projects = () => {
           <p className="project-description">
             <p><img src="/right-arrow.png"></img>Designed, developed, and deployed Fitome with a distributed Agile team of 4 developers using React, Redux, Node.js, and PostgreSQL</p>
             <p><img src="/right-arrow.png"></img>Configured PWA service worker to handle client-side caching and offline access with Google Workbox</p>
-            <p><img src="/right-arrow.png"></img>Implemented state management and handled asynchronous operations with Redux</p>
+            <p><img src="/right-arrow.png"></img>Implemented state management and handled async operations with Redux</p>
             <p><img src="/right-arrow.png"></img>Designed and built an extensive relational database using PostgreSQL with Sequelize</p>
             <p><img src="/right-arrow.png"></img>Set up MVC-compliant RESTful API optimized to reduce network load</p>
           </p>
@@ -35,7 +35,7 @@ const Projects = () => {
           </div>
           <p className="project-description">A flashcard sharing application made for lifelong learners. Users can create decks, search for available decks, save and study decks using the flashcards interface, and more.</p>
           <p className="project-description">
-            <p><img src="/right-arrow.png"></img>Designed, developed, and deployed Cardshare as solo developer using React, Node.js, and MongoDB</p>
+            <p><img src="/right-arrow.png"></img>Built Cardshare from the ground up as solo developer using React, Node.js, and MongoDB</p>
             <p><img src="/right-arrow.png"></img>Implemented search logic using JSON data fetched via Google Books API</p>
             <p><img src="/right-arrow.png"></img>Implemented authentication and authorization with Firebase</p>
             <p><img src="/right-arrow.png"></img>Crafted a seamless and responsive cross-platform compatible UI using BEM CSS</p>
