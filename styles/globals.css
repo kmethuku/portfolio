@@ -250,6 +250,8 @@ h2 {
   height: 31vw;
   min-width: 450px;
   min-height: 450px;
+  max-width: 650px;
+  max-height: 650px;
   margin: 2vh 2vw;
 }
 
@@ -258,6 +260,8 @@ h2 {
   height: auto;
   min-width: 420px;
   min-height: 420px;
+  max-width: 620px;
+  max-height: 620px;
   border-radius: 50%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -358,8 +362,10 @@ h2 {
 }
 
 .gif {
-  width: auto;
   height: 85vh;
+  width: auto;
+  max-height: 900px;
+  max-width: 419.75px;
   margin-right: 2vw;
   margin-left: 2vw;
 }
